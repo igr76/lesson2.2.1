@@ -1,6 +1,10 @@
 public class Truck implements Update{
-    public Truck(String modelName,int wheelsCount) {
-        super(modelName,wheelsCount);
+    private String modelName;
+    private int wheelsCount;
+
+    public Truck(String modelName, int wheelsCount) {
+        this.modelName = modelName;
+        this.wheelsCount = wheelsCount;
     }
 
     public void updateTyre() {

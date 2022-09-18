@@ -1,7 +1,10 @@
 public class Car implements Update {
+    private String modelName;
+    private int wheelsCount;
 
-    public Car(String modelName,int wheelsCount) {
-        super(modelName,wheelsCount);
+    public Car(String modelName, int wheelsCount) {
+        this.modelName = modelName;
+        this.wheelsCount = wheelsCount;
     }
 
     public void updateTyre() {
