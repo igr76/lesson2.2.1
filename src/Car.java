@@ -1,8 +1,8 @@
-public class Car implements Update {
-    private String modelName;
-    private int wheelsCount;
+public class Car extends Update {
+
 
     public Car(String modelName, int wheelsCount) {
+        super(modelName,wheelsCount);
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
